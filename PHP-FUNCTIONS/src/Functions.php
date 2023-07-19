@@ -29,6 +29,12 @@ class Functions
         return array_values($array);
     }
 
+    // OTRA FORMA
+    // function eachCharToArray($string) {
+    //   $textosinespacios = str_replace(' ', '', $string);
+    //   return str_split($textosinespacios);
+    // } 
+
     //Ejercicio 4 -> escribe una función llamada eachWordToArray() que convierta un string en un array donde cada elemento del array corresponda a una palabra del string dado, se deben eliminar los elementos vacios.
     //Exercise 4 -> write a function called eachWordToArray() that converts a string to an array where each element of the array corresponds to a word of the given string, empty elements must be removed.
     //Escribe tu código aquí...
